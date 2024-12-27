@@ -10,6 +10,9 @@ h1 {
 h2{
     font-size: 1rem;
 }
+p{
+    font-size: ;
+}
 h1, h2, p, li{
     color: #230D73;
 }
@@ -436,7 +439,7 @@ input {
 #produtosPng{
     display: block;
     margin: auto;
-    width: 85px;
+    width: 15vh;
 }
 .box{
     text-align: justify;

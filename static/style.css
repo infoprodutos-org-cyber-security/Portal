@@ -7,32 +7,53 @@
 h1 {
     font-size: 2rem;
 }
-h2{
+
+h2 {
     font-size: 1rem;
 }
-p{
-    font-size: ;
+
+p {
+    font-size: 1rem;
 }
-h1, h2, p, li{
+
+h1,
+h2,
+p,
+li {
     color: #230D73;
 }
+
 a {
     border-radius: 15px;
     margin: 15px;
     padding: 5px;
 }
-#sobre p, li{
+
+#sobre p,
+li {
     color: #230D73;
 }
-#validarCertificado h1, p, li{
+
+#validarCertificado h1,
+p,
+li {
     color: #230D73;
 }
-#formularioInscricao h1, h2, p, li{
+
+#formularioInscricao h1,
+h2,
+p,
+li {
     color: #230D73;
 }
-#sectionHallDaFama h1, h2, p, li{
+
+#sectionHallDaFama h1,
+h2,
+p,
+li {
     color: white;
 }
+
 .interface {
     padding: 5px;
     padding-top: 30vh;
@@ -156,10 +177,12 @@ nav {
     width: 100%;
     box-shadow: #230D73 10px 10px 50px 10px;
 }
-.minhaDivNavApareceESomeLogoPK{
+
+.minhaDivNavApareceESomeLogoPK {
     display: block;
     width: 20vh;
 }
+
 @media (max-width: 500px) {
     .lista li {
         flex: 1 0 50%;
@@ -172,19 +195,23 @@ nav {
     .minhaDivNavApareceESome {
         display: none;
     }
-.minhaDivNavApareceESomeLogoPK{
-    display: none;
-}
+
+    .minhaDivNavApareceESomeLogoPK {
+        display: none;
+    }
+
     img#menu {
         max-width: 35px;
         margin: auto;
         justify-content: center;
     }
 }
- img#menu {
+
+img#menu {
     display: block;
     max-width: 50px;
 }
+
 @media (min-width: 500px) {
     nav img#menu {
         display: none;
@@ -259,9 +286,9 @@ section.finalizar video {
 #btnWhatsapp img {
     display: block;
     margin: auto;
-    max-width: 400px;
 }
-#apps{
+
+#apps {
     padding: 15px;
 }
 
@@ -331,10 +358,11 @@ ul#opcaoespagamento a {
     margin: 15px;
 }
 
-img#logoPK{
+img#logoPK {
     display: block;
     width: 45px;
 }
+
 .logoPK {
     padding: 15px;
     align-items: center;
@@ -356,8 +384,8 @@ ul {
     background-color: white;
     box-shadow: 0px 0px 0px;
     border-radius: 1px solid gray;
-    }
-   
+}
+
 .lista {
     display: flex;
     flex-wrap: wrap;
@@ -420,13 +448,17 @@ form ul input {
 input {
     font-size: xx-small;
 }
-.validarCertificado{
+
+.validarCertificado {
     text-align: center;
     align-items: center;
 }
-.validarCertificado h1, h2{
+
+.validarCertificado h1,
+h2 {
     text-align: justify;
 }
+
 .validarCertificado form input li {
     max-width: 285px;
 }
@@ -436,49 +468,69 @@ input {
     align-items: center;
     max-width: 295px;
 }
-#produtosPng{
+
+#produtosPng {
     display: block;
     margin: auto;
     width: 15vh;
 }
-.box{
+
+.box {
     text-align: justify;
 }
+
 /* Estilo padrão para o vídeo */
 #video-topLogoPK video {
-    width: 100%; /* Ocupa toda a largura do container */
-    height: auto; /* Mantém a proporção do vídeo */
-  }
-  
-  /* Esconde o vídeo em telas maiores que 500px */
-  @media (min-width: 500px) {
-    #video-topLogoPK video {
-      display: none;
-    }
-  }
-  
-  /* Mostra o vídeo em telas menores que 500px */
-  @media (max-width: 499px) {
-    #video-topLogoPK video {
-      display: block;
-    }
-  }
-  .container{
-    display: flex; /* Transforma o body em um container flex */
-    justify-content: center; /* Alinha os itens no centro horizontalmente */
-    align-items: center; /* Alinha os itens no centro verticalmente   
-*/
-    height: 100vh; /* Define a altura do body como 100% da viewport */
-    margin: 0;
-  }
-  .ulMenu a{
-    color: white;
-  }
-  .produtosPng{
-  margin: auto;  
-  margin-bottom: 50px;
-  }
+    width: 100%;
+    /* Ocupa toda a largura do container */
+    height: auto;
+    /* Mantém a proporção do vídeo */
+}
 
-#ulHallDaFama li{
+/* Esconde em telas maiores que 500px */
+@media (min-width: 500px) {
+    #video-topLogoPK video {
+        display: none;
+    }
+
+    .responsividade {
+        display: flex;
+    }
+}
+
+/* Mostra em telas menores que 500px */
+@media (max-width: 499px) {
+    #video-topLogoPK video {
+        display: block;
+    }
+
+    .responsividade {
+        display: block;
+    }
+}
+
+.container {
+    display: flex;
+    /* Transforma o body em um container flex */
+    justify-content: center;
+    /* Alinha os itens no centro horizontalmente */
+    align-items: center;
+    /* Alinha os itens no centro verticalmente   
+*/
+    height: 100vh;
+    /* Define a altura do body como 100% da viewport */
+    margin: 0;
+}
+
+.ulMenu a {
+    color: white;
+}
+
+.produtosPng {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#ulHallDaFama li {
     text-align: center;
 }

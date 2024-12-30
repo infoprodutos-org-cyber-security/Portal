@@ -534,3 +534,8 @@ h2 {
 #ulHallDaFama li {
     text-align: center;
 }
+.bandeira-text {
+    background-image: linear-gradient(to right, #009245, #FFCC00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

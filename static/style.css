@@ -539,3 +539,11 @@ h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+div#div-somos-originais {
+    width: 40%;
+}
+img#original-png{
+    display: block;
+    margin: auto;
+    width: 5vh;
+}

@@ -498,6 +498,16 @@ h2 {
     }
 }
 
+/* Mostra em telas maiores que 500px */
+@media (max-width: 500px) {
+    #video-desktop-topLogoPK video {
+        display: none;
+    }
+}
+
+
+
+
 /* Mostra em telas menores que 500px */
 @media (max-width: 499px) {
     #video-topLogoPK video {

@@ -24,11 +24,7 @@
       -->
     </div>
   </header>
-     <picture id="video-topLogoPK" class="mp4">
-    <video muted autoplay loop style="video::internal-media-controls{display: none;}" src="static/topLogoPK.mp4">
-    </video>
-  </picture>
-   <div class="interface" style="padding: 0; background-color: black;">
+  <div class="interface" style="padding: 0; background-color: black;">
     <div id="apps" style="background-color: #230d731a;">
       <h1 style="text-align: center;" class="bandeira-text">
         Venha conversar e compartilhe sua ideia conosco.
@@ -36,7 +32,17 @@
       <h2>
         Aguardamos anciosos para nossa entrevista online.
       </h2>
-      <p>
+      <div id="videos-carrosel">
+        <picture id="video-topLogoPK" class="mp4">
+          <video muted autoplay loop style="video::internal-media-controls{display: none;}" src="static/topLogoPK.mp4">
+          </video>
+        </picture>
+        <picture id="video-desktop-topLogoPK">
+          <video muted autoplay loop style="video::internal-media-controls{display: none;}"
+            src="static/desktop-topLogoPK.mp4"></video>
+        </picture>
+      </div>
+            <p>
         Desenvolvedores WEB com em Design
         <strong class="bandeira-text">
           UI x UX
@@ -80,7 +86,7 @@
       <p>Juntos, vamos transformar suas ideias em experiências memoráveis e gerar resultados impactantes.</p>
       <p>Seja bem-vindo à INFOPRODUTOS!</p>
     </div>
-       <footer style="height: 30vh;">
+    <footer style="height: 30vh;">
       <div class="flex">
         <p>
           Desenvolvido por
@@ -107,10 +113,12 @@
       </div>
     </footer>
     <video muted autoplay loop>
-      <source src="static/primeiro.mp4" media="(max-width: 500px)" style="video::internal-media-controls{display: none;}">
-      <source src="static/Infinity.mp4" media="(min-width: 501px)" style="video::internal-media-controls{display: none;}">
+      <source src="static/primeiro.mp4" media="(max-width: 500px)"
+        style="video::internal-media-controls{display: none;}">
+      <source src="static/Infinity.mp4" media="(min-width: 501px)"
+        style="video::internal-media-controls{display: none;}">
     </video>
-   </div>
-  </body>
+  </div>
+</body>
 
 </html>

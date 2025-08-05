@@ -567,7 +567,7 @@ img#original-png{
     perspective: 1000px;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-    background-color: #333;
+    background-color: #33333300;
     margin: 50px auto;
 }
 
@@ -591,27 +591,26 @@ img#original-png{
     font-size: 2em;
     color: white;
     box-sizing: border-box;
-    border: 2px solid rgba(255, 255, 255, 0.1);
-    background-color: #555;
     flex-shrink: 0;
     opacity: 0.5;
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
     transform-origin: center center;
     text-align: center;
     padding: 20px;
+
 }
 
 .carousel-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 0;
+    border-radius: 25px;
 }
 
 .carousel-item.active {
     opacity: 1;
     transform: scale(1);
-    box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0);
 }
 
 .carousel-item.prev,
@@ -635,7 +634,7 @@ img#original-png{
 }
 
 .carousel-nav button {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0);
     border: none;
     color: white;
     /* Aumentando o padding para melhorar a área de toque em telas menores */

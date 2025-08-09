@@ -5,7 +5,7 @@
 }
 
 h1 {
-font-size: 2.2em;
+    font-size: 2.2em;
 }
 
 h2 {
@@ -532,6 +532,34 @@ h2 {
     margin: 0;
 }
 
+#ullMenu li>a {
+    margin: 0;
+    text-align: justify;
+}
+
+#ullMenu {
+    display: block;
+    /* Estilo padrão para telas menores ou iguais a 385px */
+}
+
+/*
+  A partir daqui, o código dentro da @media query
+  só será aplicado quando a largura da tela
+  for menor ou igual a 500 pixels.
+*/
+@media screen and (max-width: 500px) {
+    #ullMenu {
+        display: none;
+    }
+}
+
+@media (min-width: 500px) {
+    #ullMenu {
+        display: flex;
+        /* Estilo para telas maiores que 385px */
+    }
+    }
+
 .ulMenu a {
     color: white;
 }
@@ -544,15 +572,18 @@ h2 {
 #ulHallDaFama li {
     text-align: center;
 }
+
 .bandeira-text {
     background-image: linear-gradient(to right, #009245, #FFCC00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 div#div-somos-originais {
     width: 40%;
 }
-img#original-png{
+
+img#original-png {
     display: block;
     margin: auto;
     width: 15vh;
@@ -617,7 +648,8 @@ img#original-png{
 .carousel-item.next {
     /* Removendo as transformações de translação para evitar o problema de espaço */
     opacity: 0.7;
-    transform: none; /* Simplificando para que o JS controle apenas o track */
+    transform: none;
+    /* Simplificando para que o JS controle apenas o track */
 }
 
 .carousel-nav {
@@ -638,7 +670,7 @@ img#original-png{
     border: none;
     color: white;
     /* Aumentando o padding para melhorar a área de toque em telas menores */
-    padding: 12px 18px; 
+    padding: 12px 18px;
     border-radius: 50%;
     cursor: pointer;
     font-size: 1.2em;
@@ -662,7 +694,7 @@ img#original-png{
 
     .carousel-nav button {
         /* Ajustando para mobile, garantindo que o botão não seja muito pequeno */
-        padding: 10px 14px; 
+        padding: 10px 14px;
         font-size: 1em;
     }
 }
@@ -670,19 +702,37 @@ img#original-png{
 /* Ajuste específico para telas menores de 500px, para garantir que o carrossel não quebre */
 @media (max-width: 500px) {
     .carousel-container {
-        width: 95%; /* Ocupa um pouco mais de espaço em telas menores */
+        width: 95%;
+        /* Ocupa um pouco mais de espaço em telas menores */
         margin: 20px auto;
         height: 200px;
     }
-    
+
     .carousel-nav {
         /* Aumentando o padding para afastar os botões da borda da tela */
-        padding: 0 10px; 
+        padding: 0 10px;
     }
 
     .carousel-nav button {
-        /* Ajuste final de tamanho para telas muito pequenas */
+        /* Ajuste final de tamanho para telas muito pequenas 
         padding: 8px 12px;
         font-size: 0.9em;
     }
+        */
+    }
+}
+
+img#logoPK-front {
+    display: block;
+    max-width: 285px;
+}
+
+div#menu img#logoPK-front {
+    display: block;
+    max-width: 175px;
+}
+@media (min-width: 500px) {
+div#img-menu img{
+    display: none
+}
 }

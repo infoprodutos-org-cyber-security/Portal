@@ -1,0 +1,1 @@
+Formulários: O formulário de contato atual envia para um e-mail padrão. Para um negócio, uma solução mais robusta seria integrar um sistema que armazene os contatos em um banco de dados ou envie as mensagens diretamente para um painel administrativo, o que facilita o gerenciamento dos leads.

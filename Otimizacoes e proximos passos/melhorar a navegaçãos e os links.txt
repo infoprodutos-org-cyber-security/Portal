@@ -1,0 +1,3 @@
+Padronização dos Caminhos: Padronize todos os caminhos para arquivos como o style.css e as imagens. Usar sempre o mesmo formato, como static/style.css, evita quebras de links e torna o projeto mais organizado.
+
+Navegação Principal: Crie um menu de navegação unificado. Notei que a página fale-conosco.html tem um menu diferente da página inicial (index.html). O ideal é que todas as páginas compartilhem a mesma estrutura de navegação para uma experiência consistente.

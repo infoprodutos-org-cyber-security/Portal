@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="shortcut icon" href="static/icone-logoPK.png" type="image/x-icon" />
     <title>Fale Conosco</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f2f2f2;
-        }
 
-        .container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-            max-width: 400px;
-            margin: 0 auto;
-        }
-
-        button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            border-radius: 4px;
-        }
-    </style>
 </head>
+
 <body>
-    <div class="container">
+    <header>
+        <nav id="menu" class="flex">
+            <a id="logo" href="menu.html">
+                <div id="img-menu"><img id="menu" src="static/menu.png" alt="Menu de navegação"></div>
+            </a>
+            <ul id="ullMenu" class="ulMenu">
+                <li>
+                    <a href="cursos.html">CURSOS</a>
+                </li>
+                <li>
+                    <a href="sobre.html">SOBRE</a>
+                </li>
+                <li>
+                    <a href="hall da fama.html">HALL DA FAMA</a>
+                </li>
+                <li>
+                    <a href="validar certificado.html">VALIDAR CERTIFICADO</a>
+                </li>
+            </ul>
+            <a style="margin: auto;" href="index.html">
+                <img src="static/logoPK.png" id="logoPK-front" alt="Logo PK">
+            </a>
+        </nav>
+    </header>
+    <section class="container">
         <h1>Fale Conosco</h1>
-        <p>Precisando de ajuda? Clique no botão abaixo para entrar em contato conosco através do seu aplicativo de e-mail padrão.</p>
-        <p><strong>Importante:</strong> Ao clicar, você será redirecionado para o seu aplicativo de e-mail para preencher um formulário pré-definido e enviar sua mensagem. <br> Ao continuar, você concorda em sair da plataforma e ser atendido em um novo canal.</p>
-        <a href="https://maper.info/29j736"><button>Enviar E-mail</button></a>
-    </div>
+        <p>Precisando de ajuda? Clique no botão abaixo para entrar em contato conosco através do seu aplicativo de
+            e-mail padrão.</p>
+        <p><strong>Importante:</strong> Ao clicar, você será redirecionado para o seu aplicativo de e-mail para
+            preencher um formulário pré-definido e enviar sua mensagem. <br> Ao continuar, você concorda em sair da
+            plataforma e ser atendido em um novo canal.</p>
+        <a href="#"><button>Enviar E-mail</button></a>
+    </section>
 </body>
+
 </html>

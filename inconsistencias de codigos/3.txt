@@ -1,0 +1,1 @@
+Inconsistência de caminhos de arquivos: O caminho para o arquivo style.css é inconsistente. Em algumas páginas, como sobre.html e index.html, o caminho é static/style.css, enquanto em outras, como marcações.html, o caminho é ../static/style.css.

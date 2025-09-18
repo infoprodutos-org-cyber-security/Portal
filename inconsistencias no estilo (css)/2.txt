@@ -1,0 +1,1 @@
+HTML dentro de HTML: Na página javascript.html, o código tem um cabeçalho <h1> aninhado dentro de outro cabeçalho <h1> (<h1><a href="..."><h1>...</h1></a></h1>). Isso pode causar problemas de renderização e acessibilidade.

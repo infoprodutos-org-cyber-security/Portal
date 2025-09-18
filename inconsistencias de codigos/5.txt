@@ -1,0 +1,1 @@
+Comentários de código: Encontrei código comentado em várias páginas, como no hall da fama.html, onde a navegação foi comentada e substituída por links para uma página de erro. Se as funcionalidades não estiverem mais em uso, é melhor remover o código para manter a organização.

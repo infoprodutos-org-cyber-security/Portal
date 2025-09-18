@@ -1,0 +1,1 @@
+Hierarquia de títulos (HTML): Em algumas páginas, como hall da fama.html e IOT.html, a hierarquia dos títulos está inconsistente. Por exemplo, um cabeçalho <h1> é seguido por um <h2> que tem a mesma importância visual, o que pode causar problemas de SEO e acessibilidade.

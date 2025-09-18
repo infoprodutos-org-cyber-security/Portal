@@ -1,0 +1,3 @@
+Páginas em Construção: Substitua as páginas "Em Construção" (erroEstamosEmContrução.html) pelo conteúdo final. A seção do "Hall da Fama", por exemplo, pode exibir um ranking real com dados de exemplo para mostrar a funcionalidade.
+
+Conteúdo dos Cursos: Revise as páginas de cada curso (como python.html e javascript.html) para garantir que as informações estejam completas, bem formatadas e atualizadas. A adição de mais detalhes ou um plano de estudos pode atrair mais alunos.

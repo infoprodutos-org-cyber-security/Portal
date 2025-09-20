@@ -45,6 +45,18 @@ body {
     height: auto;
 }
 
+/* NOVO ESTILO PARA CENTRALIZAR TODOS OS VÍDEOS NA TELA */
+video {
+    /* Define o vídeo como um elemento de bloco para que a margem automática funcione */
+    display: block;
+    /* Centraliza o elemento de bloco horizontalmente */
+    margin: 0 auto;
+    /* Garante que o vídeo não ultrapasse 100% da largura do contêiner */
+    max-width: 100%;
+    /* Altura automática para manter a proporção */
+    height: auto;
+}
+
 #btnWhatsapp {
     display: block;
     max-width: 100%;
@@ -127,5 +139,119 @@ a:hover {
     #text-banner,
     #img-banner {
         padding: 0;
+    }
+}
+
+/*
+ * NOVO CSS para a seção de Cursos (courses.html)
+ * Adicionado para layout flexbox, cards e animação de hover.
+*/
+
+/* Título da seção de Cursos */
+.courses-section-title {
+    color: #FF0000;
+    /* Vermelho, seguindo o esquema de acentos */
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Container Flexbox para a lista de cursos */
+.courses-list {
+    display: flex;
+    /* Ativa o Flexbox */
+    justify-content: space-around;
+    /* Espaça os itens */
+    flex-wrap: wrap;
+    /* Permite quebrar linha em telas menores */
+    list-style: none;
+    /* Remove os marcadores de lista */
+    padding: 0;
+    margin: 30px 0;
+}
+
+/* Estilo para cada Card de Curso */
+.course-item {
+    background-color: #222222;
+    /* Fundo escuro para destacar o card no fundo preto */
+    border: 2px solid #FF0000;
+    /* Borda vermelha de destaque */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    width: 280px;
+    /* Largura fixa para o card */
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    /* Animação suave */
+}
+
+/* Animação no Hover */
+.course-item:hover {
+    transform: translateY(-5px) scale(1.02);
+    /* Sobe um pouco e cresce no hover */
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.5);
+    /* Sombra vermelha para o efeito */
+}
+
+/* Título do Card */
+.course-item h3 {
+    color: #FFD700;
+    /* Título em Dourado */
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+/* Descrição do Card */
+.course-item p {
+    color: #FFFFFF;
+    /* Descrição em Branco */
+    font-size: 0.95rem;
+}
+
+/* Estilo do Botão (Link) */
+.course-link {
+    display: inline-block;
+    background-color: #FF0000;
+    /* Fundo do botão em Vermelho */
+    color: #FFFFFF;
+    /* Texto do botão em Branco */
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.course-link:hover {
+    background-color: #CC0000;
+    /* Vermelho mais escuro no hover */
+    text-decoration: none;
+}
+
+/* Responsividade para telas menores (mantendo a regra original e adicionando ajuste para cards) */
+@media (max-width: 768px) {
+    #banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #text-banner,
+    #img-banner {
+        padding: 0;
+    }
+}
+
+@media (max-width: 650px) {
+    .courses-list {
+        justify-content: center;
+    }
+
+    .course-item {
+        width: 90%;
+        /* Cards ocupam quase toda a largura em mobile */
     }
 }
